@@ -155,7 +155,30 @@ body{
 }
 .subtitle{
 	font-size: 14px;
-	font-family: 'Roboto';
+	font-family: 'Roboto',sans-serif;
 	color: #B99BB6;
 	font-weight: 400;
+}
+.product-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	margin-top: 91px;
+}
+.product{
+	margin-left: 26px;
+	margin-bottom: 54px;
+}
+.excerpt{
+	font-family: 'Cormorant Garamond';
+	font-size: 24px;
+	color: #5F4D5D;
+	line-height: 30px;
+}
+.price{
+	font-family: 'Roboto',sans-serif;
+	font-size: 16px;
+	color: #B0B0B0;
+	line-height: 17px;
 }
