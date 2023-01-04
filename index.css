@@ -7,7 +7,7 @@ body{
 	font-family: 'Cormorant Garamond';
 }
 .logo{
-	padding: 33px 140px 24px 138px;
+	padding: 23px 140px 24px 138px;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 24px;
@@ -73,6 +73,9 @@ body{
 	font-family: 'Roboto',sans-serif;
 	font-weight: 400;
 }
+.feature{
+	color: #B99BB6;;
+}
 .btn{
 	text-decoration: underline;
 	color: #fff;
@@ -80,8 +83,50 @@ body{
 	font-family: 'Roboto',sans-serif;
 	font-weight: 400;
 }
-/*.section-text hr{
-	width: 40px;
-	color: #fff;
-	text-align: left;
+/*.features{
+	margin-top: 75px;
+	margin-bottom: 50px;
 }*/
+.feature-subtxt{
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+.sub-txt{
+	font-size: 26px;
+	line-height: 38px;
+	color: #5F4D5D;
+	font-family: 'Cormorant Garamond';
+}
+.features-btn{
+	height: 45px;
+	width: 141px;
+	border-radius: 25px;
+	border: 1px solid #B99BB6;
+	color: #B99BB6;
+	background-color: #fff;
+}
+.features-content{
+	display: flex;
+	justify-content: center;
+}
+.features-block{
+	background-color: #CEB3CB;
+	color: #fff;
+	font-family: 'Cormorant Garamond';
+	font-size: 25px;
+	margin-left: 37px ;
+}
+.feature-txt{
+	height: 113px;
+	width: 344px;
+	text-align: left;
+	line-height: 30px;
+	padding-left: 24px;
+}
+.features-block a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+	line-height: 30px;
+}
