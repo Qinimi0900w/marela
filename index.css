@@ -105,6 +105,7 @@ body{
 	border: 1px solid #B99BB6;
 	color: #B99BB6;
 	background-color: #fff;
+	text-decoration: none;
 }
 .features-content{
 	display: flex;
@@ -116,6 +117,7 @@ body{
 	font-family: 'Cormorant Garamond';
 	font-size: 25px;
 	margin-left: 37px ;
+	margin-bottom: 30px;
 }
 .feature-txt{
 	height: 113px;
@@ -129,4 +131,31 @@ body{
 	color: #fff;
 	font-size: 17px;
 	line-height: 30px;
+}
+.desc{
+	margin: 0 auto;
+}
+.desc hr{
+	width: 1350px;
+	border: 1px solid #D7B7D4;
+}
+.desc-content{
+	display: flex;
+	margin: 41px auto;
+	justify-content: space-around;
+	font-family: 'Cormorant Garamond';
+	color: #5F4D5D;
+	font-size: 24px;
+	padding: 0 0 0 120px ;
+}
+.desc-txt{
+	text-align: left;
+	padding-top: 70px;
+	align-items: center;
+}
+.subtitle{
+	font-size: 14px;
+	font-family: 'Roboto';
+	color: #B99BB6;
+	font-weight: 400;
 }
